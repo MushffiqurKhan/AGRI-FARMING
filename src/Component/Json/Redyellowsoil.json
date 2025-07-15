@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "रेड मिट्टी",
+    "description": "यह मिट्टी लोहे की अधिकता के कारण लाल रंग की होती है और दक्षिण भारत में पाई जाती है।",
+    "imageUrl": "Redyellowsoil.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example1",
+      "link2": "https://youtube.com/example2"
+    }
+  },
+  {
+    "id": 2,
+    "title": "येलो मिट्टी",
+    "description": "यह मिट्टी पीली दिखाई देती है क्योंकि इसमें हाइड्रेशन की प्रक्रिया के कारण लोहे का ऑक्सीकरण कम होता है।",
+    "imageUrl": "yellowsoil.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example3",
+      "link2": "https://youtube.com/example4"
+    }
+  }
+]

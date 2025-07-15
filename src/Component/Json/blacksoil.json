@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "गहरी काली मिट्टी (Deep Black Soil)",
+    "description": "यह मिट्टी 90 सेंटीमीटर से अधिक गहराई की होती है, जिसमें नमी बनाए रखने की उत्कृष्ट क्षमता होती है। कपास की खेती के लिए सबसे उपयुक्त है।",
+    "imageUrl": "blacksoil.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example1",
+      "link2": "https://youtube.com/example2"
+    }
+  },
+  {
+    "id": 2,
+    "title": "मध्यम काली मिट्टी (Medium Black Soil)",
+    "description": "इसकी गहराई लगभग 30 से 90 सेंटीमीटर के बीच होती है, और यह कपास, बाजरा, ज्वार आदि फसलों के लिए उपयोगी है।",
+    "imageUrl": "blacksoil1.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example3",
+      "link2": "https://youtube.com/example4"
+    }
+  },
+  {
+    "id": 3,
+    "title": "उथली काली मिट्टी (Shallow Black Soil)",
+    "description": "यह 30 सेंटीमीटर तक की गहराई वाली मिट्टी होती है, जिसमें चट्टानों के टुकड़े भी शामिल होते हैं। इसमें कम उपज होती है, लेकिन दालों और मोटे अनाज की खेती के लिए उपयोग की जाती है।",
+    "imageUrl": "blacksoil2.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example5",
+      "link2": "https://youtube.com/example6"
+    }
+  }
+]

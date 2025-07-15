@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "गेहूं",
+    "description": "गेहूं एक घास है जिसकी व्यापक रूप से बीज के लिए खेती की जाती है, यह एक अनाज है जो दुनिया भर में मुख्य भोजन है।",
+    "imageUrl": "crop1.jpg",
+    "youtube": {
+      "link1": "https://youtu.be/MvI5eELrtOw?si=7ZforpUy4xuVA22u",
+      "link2": " https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-cerels/ipm-strategies-for-wheat/wheat-diseases-and-symptoms"
+    }
+  },
+  {
+    "id": 2,
+    "title": "जौ",
+    "description": "जौ एक बहुमुखी अनाज है जिसकी खेती हजारों वर्षों से की जा रही है।  ",
+    "imageUrl": "barley.jpg",
+    "youtube": {
+      "link1":"https://youtu.be/iXG3lhMA6so?si=IGnTT8K4SXSrnoKJ",
+      "link2": " https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-cerels/ipm-strategies-for-wheat/wheat-diseases-and-symptoms"
+    }
+  },
+  {
+    "id": 3,
+    "title": "मटर",
+    "description": "मटर एक पौष्टिक और बहुमुखी फलियां हैं जो मुख्य रूप से ठंड के मौसम में उगाई जाती हैं।  ",
+    "imageUrl": "peas.webp",
+    "youtube": {
+      "link1":"https://youtu.be/T3DePsvqCiw?si=pKIYDFv3vLqT6Tn4",
+      "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-pulses/ipm-strategies-for-pea/pea-diseases#:~:text=Pea%20Diseases%20%E2%80%94%20Vikaspedia"
+    }
+  },
+  {
+    "id": 4,
+    "title": "सरसों",
+    "description": "सरसों एक बहुमुखी और व्यापक रूप से उगाई जाने वाली फसल है जो अपने बीजों के लिए जानी जाती है।",
+    "imageUrl": "crop3.jpg",
+    "youtube": {
+      "link1": "https://youtu.be/nCChKCO1YfY?si=KCh2abQ9sHlcoC8_",
+      "link2": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-oilseeds/ipm-strategies-for-mustard-rapeseed/diseases-and-symptoms#:~:text=Mustard:%20Diseases%20and%20Symptoms%20%E2%80%94%20Vikaspedia"
+    }
+  },
+  {
+    "id": 5,
+    "title": "चना",
+    "description": "चना, जिसे आमतौर पर चना या बंगाल चना के नाम से जाना जाता है, एक महत्वपूर्ण दलहनी फसल है जो मुख्य रूप से शुष्क और अर्ध-शुष्क क्षेत्रों में उगाई जाती है।",
+    "imageUrl": "crop2.webp",
+    "youtube": {
+      "link1":"https://youtu.be/fV4_7ayx0LE?si=csLeHBlb3Sti_xlf",
+      "link2":"https://vikaspedia.in/agriculture/crop-production/package-of-practices/pulses/horse-gram#:~:text=Horse%20gram%20%E2%80%94%20Vikaspedia"  
+  }
+  },
+  {
+    "id": 6,
+    "title": "मसूर",
+    "description": "ये एक प्रोटीन से भरपूर दाल है जो शकहारी लोगो के लिए प्रोटीन का उत्तम स्रोत है। मसूर की खेती ठंडे मौसम में जाती है और ये अक्टूबर-नवंबर में बोयी जाती है।",
+    "imageUrl": "masoor-dal.jpg",
+    "youtube": {
+      "link1":"https://youtu.be/1OwPKRrxrE4?si=HXyFTDh0G1mQX2_o",
+      "link2":""  
+  }
+  }
+]

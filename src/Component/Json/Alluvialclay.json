@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "ऊपरी जलोढ़ मिट्टी ",
+    "description": "नदी के ऊपरी भागों में पाई जाती है, यह मिट्टी गहरी और उपजाऊ होती है, जिसमें धान, गेहूँ, गन्ना आदि की खेती की जाती है।",
+    "imageUrl": "alluvialsoil.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example1",
+      "link2": "https://youtube.com/example2"
+    }
+  },
+  {
+    "id": 2,
+    "title": "निचली जलोढ़ मिट्टी ",
+    "description": "नदी के निचले क्षेत्रों में पाई जाने वाली यह मिट्टी अधिक नम और जैविक पदार्थों से भरपूर होती है।",
+    "imageUrl": "Lower Alluvial Clay.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example3",
+      "link2": "https://youtube.com/example4"
+    }
+  },
+  {
+    "id": 3,
+    "title": "नवीन जलोढ़ मिट्टी ",
+    "description": "हाल ही में जमा हुई मिट्टी, जो हल्की, रेतीली और सिंचाई के लिए उपयुक्त होती है।",
+    "imageUrl": "Newer Alluvial Clay.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example5",
+      "link2": "https://youtube.com/example6"
+    }
+  },
+  {
+    "id": 4,
+    "title": "पुरानी जलोढ़ मिट्टी ",
+    "description": "यह मिट्टी गहरी, कठोर और अपेक्षाकृत कम उपजाऊ होती है, जिसे सुधार के लिए उर्वरकों की ज़रूरत होती है।",
+    "imageUrl": "Older Alluvial Clay.jpg",
+    "youtube": {
+      "link1": "https://youtube.com/example7",
+      "link2": "https://youtube.com/example8"
+    }
+  }
+]

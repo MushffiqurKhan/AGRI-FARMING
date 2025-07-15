@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "अंकुर",
+        "description": "अंकुर युवा, कोमल अंकुर होते हैं जो अंकुरित बीजों से निकलते हैं। वे विटामिन, खनिज और एंजाइम सहित पोषक तत्वों से भरे हुए हैं, जो उन्हें स्वास्थ्य के प्रति जागरूक व्यक्तियों के लिए एक लोकप्रिय विकल्प बनाते हैं।  ",
+        "imageUrl": "sprouts.jpg",
+        "youtube": {
+          "link1":"https://youtu.be/BbkLyhcMczM?si=Cin9bx1LmDLyigep",
+          "link2":""  
+      }
+      },
+      {
+        "id": 2,
+        "title": "मशरूम",
+        "description": "मशरूम एक पौष्टिक और स्वादिष्ट फफूंद है जिसे विभिन्न व्यंजनों में उपयोग किया जाता है। इसमें प्रोटीन, विटामिन, खनिज, और एंटीऑक्सीडेंट प्रचुर मात्रा में पाए जाते हैं। ",
+        "imageUrl": "mushroom.jfif",
+        "youtube": {
+          "link1":"https://youtu.be/JHFoOKl0rSM?si=8m9dOWELzZQ_EGGx",
+          "link2":"https://vikaspedia.in/agriculture/farm-based-enterprises/mushroom-production#:~:text=Mushroom%20Production%20%E2%80%94%20Vikaspedia"  
+      }
+      }
+      
+    ]

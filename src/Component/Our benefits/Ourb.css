@@ -1,0 +1,90 @@
+.section-main{
+    
+    background-color: #c5e3e8;
+    
+    font-size: 36px;
+    margin-top: 20px;
+    color: #000000;
+    position: relative;
+    top: 30px;
+}
+.section-title{
+   
+    font-size: 28px;
+    margin-left: 150px;
+    height: 50px;
+    color: #000;
+
+}
+.Second-section-title{
+    
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: -30px;
+    color: #000;
+}
+.statistics {
+    border: 2px solid rebeccapurple;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 50px;
+    padding: 50px 20px;
+    background-color: #2e5a61;
+    text-align: center;
+    color: #fff;
+}
+
+.stat-item {
+    flex: 1 1 180px;
+    max-width: 200px;
+    padding: 20px;
+    background-color: #404a3d;
+    border-radius: 8px;
+    height: 220px;
+}
+
+.stat-item img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.stat-item h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+    color: #050404;
+}
+
+.stat-item p {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #0e0c0c;
+}
+.text{
+    margin-left:500px ;
+    font-size: 20px;
+    margin-top: -120px;
+}
+
+@media (max-width: 1200px) {
+    .stat-item {
+        flex: 1 1 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .stat-item {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-item {
+        flex: 1 1 100%;
+    }
+}

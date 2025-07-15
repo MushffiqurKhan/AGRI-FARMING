@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D0F0C0;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  position: relative;
+  width: 70%;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.tabs button {
+  width: 25%; /* Adjusted to fit four buttons equally */
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  color: rgb(28, 26, 26); /* Button text color */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 200ms;
+}
+
+.tabs button:hover {
+  color: #724f3e; /* Button text color on hover */
+}
+
+.tabs .active {
+  background: #778658;
+  height: calc(100% - 10px);
+  width: calc(25% - 10px); /* Adjusted to fit four buttons equally */
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transform: translateX(5px);
+  border-radius: inherit;
+  box-shadow: 0 2px 2px #ccc;
+  transition: all 200ms;
+}
+
+.Crop-box {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box1 {
+  position: relative;
+  /* border: 2px solid rgb(10, 42, 101); */
+  height: 200px;
+  width: 200px;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.btn-1 {
+  margin: 10px 0 0 0;
+  padding: 2px 4px;
+  background: transparent;
+  color: aliceblue;
+  border: 2px solid #84b56c;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  
+}
+.btn-2 {
+  /* margin: 10px 0 0 0; */
+  padding: 2px 4px;
+  background: transparent;
+  color: aliceblue;
+  border: 2px solid #84b56c;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-top: 48px;
+  
+}
+.btn-3 {
+  /* margin: 10px 0 0 0; */
+  padding: 2px 4px;
+  background: transparent;
+  color: aliceblue;
+  border: 2px solid #84b56c;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.btn-4 {
+  /* margin: 10px 0 0 0; */
+  padding: 2px 4px;
+  background: transparent;
+  color: aliceblue;
+  border: 2px solid #84b56c;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.btn-1:hover {
+  transform: scale(1.05); 
+  background: transparent;
+  background: #84b56c;
+  color: white;
+  border: 2px double #84b56c;
+}
+.btn-2:hover {
+  transform: scale(1.05); 
+  background: transparent;
+  background: #84b56c;
+  color: white;
+  border: 2px double #84b56c;
+}
+.btn-3:hover {
+  transform: scale(1.05); 
+  background: transparent;
+  background: #84b56c;
+  color: white;
+  border: 2px double #84b56c;
+}
+.btn-4:hover {
+  transform: scale(1.05); 
+  background: transparent;
+  background: #84b56c;
+  color: white;
+  border: 2px double #84b56c;
+}
+.box1 img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 9x;
+  /* margin-left: -2px; */
+  /* margin-top: -2px; */
+}
+
+.Wheat {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(245, 245, 245, 0.836);
+  border-radius: 4px;
+  
+}
+
+
+.type{
+  
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(245, 245, 245, 0.836);
+  border-radius: 4px;
+}
+
+.lands{
+  
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(245, 245, 245, 0.836);
+  border-radius: 4px;
+}
+
+#alluvial{
+  margin-left:50px ;
+}
+#alluvialsoil{
+  text-decoration: none;
+}
+/* 
+lands css */
+.alluvial, .black, .red {
+ width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(245, 245, 245, 0.836);
+  border-radius: 4px;
+  
+}
+
+/* Link के लिए */
+.alluvial a, .black a, .red a {
+  color: #222240;       /* link भी normal text जैसा दिखे */
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Hover effect पर भी blue न हो */
+.alluvial a:hover, .black a:hover, .red a:hover {
+  color: #222240;
+  text-decoration: none;
+}
+
+/* Button style */
+.btn-1, .btn-4 {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #84b56c;
+  color: white;
+  border: 2px solid #84b56c;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-1:hover, .btn-4:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+}

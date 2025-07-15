@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "चावल",
+      "description": "चावल दुनिया की आधी से अधिक आबादी के लिए एक महत्वपूर्ण मुख्य भोजन है, खासकर एशिया में।",
+      "imageUrl": "rice.jpg",
+      "youtube": {
+        "link1": "https://youtu.be/O0zsrH2EmU4?si=jdGJPnxliZr8dRqb",
+        "link2": ""
+      }
+    },
+    {
+      "id": 2,
+      "title": "मक्का",
+      "description": "मक्का, जिसे मकई के नाम से भी जाना जाता है, अपनी बहुमुखी प्रतिभा और पोषण मूल्य के लिए दुनिया भर में उगाई जाने वाली एक महत्वपूर्ण अनाज की फसल है। ",
+      "imageUrl": "maize.webp",
+      "youtube": {
+        "link1":"https://youtu.be/TMPDGiim77A?si=8Ec2BUfbcO6TujM6",
+        "link2":""
+      }
+    },
+    {
+      "id": 3,
+      "title": "ज्वार",
+      "description": "ज्वार एक बहुमुखी और लचीला अनाज है जिसकी खेती दुनिया भर के शुष्क और अर्ध-शुष्क क्षेत्रों में की जाती है।",
+      "imageUrl": "sorghum.jpg",
+      "youtube": {
+        "link1":"https://youtu.be/qRCvRLc7Hkk?si=yDkDDvR8Mm1ULQSd",
+        "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-cerels/ipm-strategies-for-sorghum/sorghum-diseases-and-symptoms#:~:text=Sorghum:%20Diseases%20and%20Symptoms%20%E2%80%94%20Vikaspedia"
+      }
+    },
+    {
+      "id": 4,
+      "title": "सोयाबीन",
+      "description": "सोयाबीन, एक महत्तवपूर्ण ख़रीफ़ फ़सल है जो प्रोटीन और तेल से समृद्ध है। खरगोन, मध्य प्रदेश में इस्का उत्पदान विस्ट्रीत रूप से किया जाता है। ",
+      "imageUrl": "soyabean.webp",
+      "youtube": {
+        "link1": "https://youtu.be/nvpjaRVl8Dw?si=YlafK01QuP6m6FwY",
+        "link2":""
+      }
+    },
+    {
+      "id": 5,
+      "title": "कपास",
+      "description": "कपास एक व्यापक रूप से उगाई जाने वाली रेशे वाली फसल है जो अपने नरम और फूले हुए गूदे के लिए जानी जाती है, जिसका उपयोग कपड़ा और कपड़े बनाने के लिए किया जाता है। ",
+      "imageUrl": "cotton.jpg",
+      "youtube": {
+        "link1":"https://youtu.be/FovIzNZ7Qe4?si=xyZAPcaHdF1uMwxj",
+        "link2":""  
+    }
+    },
+    {
+      "id": 6,
+      "title": "मूंग",
+      "description": "मूंग, जिसे हरा चना भी कहा जाता है, एक महत्‍वपूर्ण खरीफ फसल है जो प्रोटीन से भरपूर है। खरगोन, मध्य प्रदेश में इस्का उत्पदान विस्ट्रीत रूप से किया जाता है।  ",
+      "imageUrl": "moong.jpg",
+      "youtube": {
+        "link1":"https://youtu.be/HS6017AmxdE?si=Z37GZ1BYBYAbq-HU",
+        "link2":""  
+    }
+    },
+    {
+      "id": 7,
+      "title": "मूँगफली",
+      "description": "यह एक पौष्टिक बीज है जिसमें प्रोटीन, वसा, और मिनरल्स की भरपूर मात्रा होती है। मूँगफली का उपयोग न केवल स्नैक के रूप में किया जाता है।  ",
+      "imageUrl": "Moongfali.webp",
+      "youtube": {
+        "link1":"https://youtu.be/JW4XouW8ec0?si=zJ1bqTTbWg70VuhA",
+        "link2":""  
+    }
+    }
+    
+  ]
+  

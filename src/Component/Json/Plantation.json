@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Tea",
+        "description": "Tea cultivation is primarily carried out in regions with tropical and subtropical climates, requiring well-drained, acidic soils and consistent rainfall.  ",
+        "imageUrl": "tea.jpg",
+        "youtube": {
+          "link1":"",
+          "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-commercial-crops/ipm-strategies-for-tea/tea-diseases#:~:text=Tea%20Diseases%20%E2%80%94%20Vikaspedia"  
+      }
+      },
+      {
+        "id": 2,
+        "title": "Coffee",
+        "description": "Coffee cultivation thrives in tropical regions with rich, well-drained soils, moderate temperatures, and regular rainfall. ",
+        "imageUrl": "coffee.webp",
+        "youtube": {
+          "link1":"https://youtu.be/hwbrOt_7glg?si=H0XuROzhh_KPvT-6",
+          "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-commercial-crops/ipm-strategies-for-coffee/coffee-diseases#:~:text=Coffee%20Diseases%20%E2%80%94%20Vikaspedia"  
+      }
+      },
+      {
+        "id": 3,
+        "title": "Coconut",
+        "description": "Coconut cultivation is prominent in tropical coastal regions, with countries like the Philippines, Indonesia, India, and Sri Lanka being major producers.",
+        "imageUrl": "coconut.jpg",
+        "youtube": {
+          "link1":"https://youtu.be/1ku0NJXXVQ0?si=UzvqNmNgsPmjECYp",
+          "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-strategies-for-coconut/diseases-and-symptoms#:~:text=Coconut:%20Diseases%20and%20Symptoms%20%E2%80%94%20Vikaspedia"  
+      }
+      }
+    ]

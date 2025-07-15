@@ -1,0 +1,49 @@
+.machine-section{
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.machine-heading{
+    font-size: 900;
+    color: #d88b0f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+.machine-contain{
+    /* border: 2px solid rgb(118, 93, 93); */
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    height: 300px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    
+}
+.machine-img img{
+    /* border: 2px solid red; */
+    height: 255px;
+    width: 100%;
+   margin: 0;
+   border-radius:6px;
+}
+.machine-info{
+    /* border: 2px solid red; */
+   /* padding: 2px; */
+   /* background-color: whitesmoke; */
+line-height: 26px;
+height: 250px;
+
+}
+.machine-info h1{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: #d88b0f;
+    font-size: 30px;
+    font-weight:800; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.machine-info span{
+  font-size: large;
+  font-weight: 600;
+}

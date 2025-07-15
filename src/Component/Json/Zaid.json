@@ -1,0 +1,64 @@
+[
+{
+    "id": 1,
+    "title": "गन्ना",
+    "description": "गन्ना एक लंबी, बारहमासी घास है जो अपने मीठे, रेशेदार डंठलों के लिए जानी जाती है जो दुनिया भर में चीनी का प्राथमिक स्रोत हैं। ",
+    "imageUrl": "sugarcane.jpg",
+    "youtube": {
+      "link1":"https://youtu.be/BFCnoSweJWU?si=iHInomjdDxueqFOD",
+      "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-commercial-crops/ipm-strategies-for-sugarcane/sugarcane-diseases-and-symptoms#:~:text=Sugarcane:%20Diseases%20and%20Symptoms%20%E2%80%94%20Vikaspedia"  
+  }
+  },
+  {
+    "id": 2,
+    "title": "तरबूज",
+    "description": "तरबूज कुकुर्बिटेसी परिवार की एक फूल वाली पौधे की प्रजाति है और इसके खाने योग्य फल का नाम है। ",
+    "imageUrl": "watermelons.jpg",
+    "youtube": {
+      "link1":"https://youtu.be/afNq-DPAI4A?si=eb3DLOB7bjVTb8_T",
+      "link2":"https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-watermelon/watermelon-diseases-and-symptoms#:~:text=Watermelon:%20Diseases%20and%20Symptoms%20%E2%80%94%20Vikaspedia"  
+  }
+  },
+  {
+    "id": 3,
+    "title": "ककड़ी",
+    "description": "ककड़ी (कुकुमिस सैटिवस) कुकुर्बिटेसी परिवार में व्यापक रूप से उगाया जाने वाला रेंगने वाला पौधा है जो बेलनाकार से गोलाकार फल देता है। ",
+    "imageUrl": "cucumber.jpg",
+    "youtube": {
+      "link1":"https://youtu.be/g7APTpFDU0o?si=kooTjgwPUkDRDyFk",
+      "link2":""  
+  }
+  },
+  {
+    "id": 4,
+    "title": "खरबूजा",
+    "description": "खरबूजा, लौकी परिवार (कुकुर्बिटेसी) में जालीदार छिलके वाले खरबूजे की कई किस्मों में से एक है, जो अपने मांसल-सुगंधित मीठे रसदार नारंगी मांस के लिए जाना जाता है। ",
+    "imageUrl": "muskmelon.webp",
+    "youtube": {
+      "link1":"https://youtu.be/g7APTpFDU0o?si=kooTjgwPUkDRDyFk",
+      "link2":""  
+  }
+  },
+  {
+    "id": 5,
+    "title": "लौकी",
+    "description": "लौकी, जिसे लौकी भी कहा जाता है, एक पौष्टिक और स्वादिष्ट सब्जी है जो जायद फसल में मुख्य रूप से उगाई जाती है। खरगोन, मध्य प्रदेश में इसका उत्पादन गर्मीयों के दौरन होता है।  ",
+    "imageUrl": "lauki.webp",
+    "youtube": {
+      "link1":"https://youtu.be/Tk7JyxQ3eV4?si=wV1jeirKNpWJy2TS",
+      "link2":""  
+  }
+  },
+  {
+    "id": 6,
+    "title": "भिंडी",
+    "description": "भिंडी, जिसे ओकरा या भिंडी भी कहा जाता है, एक लोकप्रिय और पोष्टिक सब्जी है जो ख़रीफ़ और जायद दोनों ऋतुओं में उगाई जाती है। खरगोन, मध्य प्रदेश में इस्का उत्पदान विस्ट्रीत रूप से होता है।",
+    "imageUrl": "bhindi.webp",
+    "youtube": {
+      "link1":"https://youtu.be/wAatomtxRKY?si=UOOp4tCIQ-SKlVXV",
+      "link2":""  
+  }
+  }
+
+
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "जुताई",
+    "description": "फसल बोने से पहले मिट्टी को तैयार करने की प्रक्रिया, जिससे मिट्टी की उर्वरता बढ़ती है और खरपतवार कम होते हैं।",
+    "imageUrl": "cultivation.jpg",
+    "youtube": {
+      "link1": "https://www.youtube.com/watch?v=ploughing_process",
+      "link2": "https://www.youtube.com/watch?v=ploughing_safety"
+    }
+  },
+  {
+    "id": 2,
+    "title": "उर्वरक का प्रयोग",
+    "description": "मिट्टी की गुणवत्ता बढ़ाने और फसल की उपज बढ़ाने के लिए जैविक और रासायनिक उर्वरकों का उपयोग।",
+    "imageUrl": "cultivation3.jpeg",
+    "youtube": {
+      "link1": "https://www.youtube.com/watch?v=fertilizer_use",
+      "link2": "https://www.youtube.com/watch?v=fertilizer_safety"
+    }
+  },
+  {
+    "id": 3,
+    "title": "सिंचाई",
+    "description": "फसलों को पर्याप्त मात्रा में पानी देने की प्रक्रिया, जिससे पौधों की स्वस्थ वृद्धि सुनिश्चित होती है।",
+    "imageUrl": "cultivation2.jpg",
+    "youtube": {
+      "link1": "https://www.youtube.com/watch?v=irrigation_methods",
+      "link2": "https://www.youtube.com/watch?v=irrigation_safety"
+    }
+  },
+  {
+    "id": 4,
+    "title": "फसल संरक्षण",
+    "description": "कीट और रोगों से फसलों की सुरक्षा के लिए जैविक और रासायनिक उपायों का प्रयोग।",
+    "imageUrl": "cultivation1.jpg",
+    "youtube": {
+      "link1": "https://www.youtube.com/watch?v=crop_protection",
+      "link2": "https://www.youtube.com/watch?v=crop_disease_safety"
+    }
+  }
+]

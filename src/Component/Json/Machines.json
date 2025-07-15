@@ -1,0 +1,167 @@
+[
+    {
+      "id": 1,
+      "name": "Tractor",
+      "imageUrl": "tractor.jpg",
+      "subheading":"General purpose",
+      "function":"Turning over the upper layer of the soil, bringing fresh nutrients to the surface, and burying weeds and crop residues.",
+      "uses":"Plowing, tilling, planting, harrowing, and transporting heavy loads..",
+      "subheading_hindi":"सामान्य उद्देश्य",
+      "function_hindi":"विभिन्न कृषि उपकरणों को खींचना और शक्ति प्रदान करना।",
+      "uses_hindi":"मक्का, गेहूं, सोयाबीन आदि के खेतों में जुताई, रोपण और कटाई जैसे कार्यों के लिए अनुकूल।"
+    },
+    {
+        "id": 2,
+        "name": "Plows",
+        "imageUrl": "plows.jpg",
+        "subheading":"General purpose",
+        "function":"TPlows are used to break up soil and prepare it for planting",
+        "uses":"Turning over the upper layer of the soil, bringing fresh nutrients to the surface, and burying weeds and crop residues.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"मिट्टी को तोड़ने और उसे रोपण के लिए तैयार करने के लिए टीप्लो का उपयोग किया जाता है",
+        "uses_hindi":"मिट्टी की ऊपरी परत को पलटना, ताजा पोषक तत्वों को सतह पर लाना, और खरपतवार और फसल के अवशेषों को दबा देना।"
+      },
+      {
+        "id": 3,
+        "name": "Harrows",
+        "imageUrl": "harrows.jpg",
+        "subheading":"General purpose",
+        "function":" Breaking up clods of soil after plowing, leveling the soil, and covering seeds after planting.",
+        "uses":"Adaptable for tasks like plowing, planting, and harvesting in fields of corn, wheat, soybeans, etc.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"जुताई के बाद मिट्टी के ढेलों को तोड़ना, मिट्टी को समतल करना और रोपण के बाद बीज को ढक देना।",
+        "uses_hindi":"मक्का, गेहूं, सोयाबीन आदि के खेतों में जुताई, रोपण और कटाई जैसे कार्यों के लिए अनुकूल।"
+      },
+      {
+        "id": 4,
+        "name": "Seed Drills",
+        "imageUrl": "seed-drill.jpg",
+        "subheading":"General purpose",
+        "function":"Seed drills plant seeds at the proper depth and spacing",
+        "uses":"Sowing seeds in rows for crops like wheat, barley, and other grains.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"सीड ड्रिल से उचित गहराई और दूरी पर बीज बोए जाते हैं",
+        "uses_hindi":"गेहूं, जौ और अन्य अनाज जैसी फसलों के लिए पंक्तियों में बीज बोना।"
+      },
+      {
+        "id": 5,
+        "name": "Planters",
+        "imageUrl": "planter.jfif",
+        "subheading":"General purpose",
+        "function":"Planters are used to place seeds in the soil in precise rows",
+        "uses":"Planting larger seeds like corn, soybeans, and sunflower.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"बीजों को मिट्टी में सटीक पंक्तियों में रखने के लिए प्लांटर्स का उपयोग किया जाता है",
+        "uses_hindi":"मक्का, सोयाबीन और सूरजमुखी जैसे बड़े बीज बोना।"
+      },
+      {
+        "id": 6,
+        "name": "Sprayers",
+        "imageUrl": "sprayes.jfif",
+        "subheading":"General purpose",
+        "function":"Sprayers are used to apply pesticides, herbicides, and fertilizers",
+        "uses":"Protecting crops from pests, diseases, and providing nutrients.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"स्प्रेयर का उपयोग कीटनाशकों, शाकनाशी और उर्वरकों को लगाने के लिए किया जाता है",
+        "uses_hindi":"फसलों को कीटों, बीमारियों से बचाना और पोषक तत्व प्रदान करना।"
+      },
+      {
+        "id": 7,
+        "name": "Harvesters",
+        "imageUrl": "harvestor.jfif",
+        "subheading":"General purpose",
+        "function":"Harvesters are machines used to gather mature crops from the fields",
+        "uses":"Cutting, threshing, and cleaning grain crops (like wheat and corn) and other crops like cotton, potatoes, and sugar beets",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"हार्वेस्टर ऐसी मशीनें हैं जिनका उपयोग खेतों से परिपक्व फसलों को इकट्ठा करने के लिए किया जाता है",
+        "uses_hindi":"अनाज की फसलें (जैसे गेहूं और मक्का) और कपास, आलू और चुकंदर जैसी अन्य फसलें काटना, गहाई करना और साफ करना|"
+      },
+      {
+        "id": 8,
+        "name": "Balers",
+        "imageUrl": "baler.jfif",
+        "subheading":"General purpose",
+        "function":"Balers compact and bind straw, hay, or other forage into bales",
+        "uses":"Easy storage, handling, and transportation of forage crops.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"बेलर पुआल, घास, या अन्य चारे को जमाकर गांठों में बांधते हैं|",
+        "uses_hindi":"चारा फसलों का आसान भंडारण, प्रबंधन और परिवहन।"
+      },
+      {
+        "id": 9,
+        "name": "Tillers",
+        "imageUrl": "tiller.jfif",
+        "subheading":"General purpose",
+        "function":"Tillers are used for secondary tillage of soil.",
+        "uses":"Breaking up soil, aerating the soil, and mixing in compost or fertilizer.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"टिलर का उपयोग मिट्टी की द्वितीयक जुताई के लिए किया जाता है।",
+        "uses_hindi":"मिट्टी को तोड़ना, मिट्टी को हवा देना, और खाद या उर्वरक में मिलाना।"
+      },
+      {
+        "id": 10,
+       "name": "Irrigation Systems",
+        "imageUrl": "drip_system.jfif",
+        "subheading":"General purpose",
+        "function":"Irrigation systems supply water to crops",
+        "uses":"Providing necessary water during dry periods to ensure crop growth.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"सिंचाई प्रणालियाँ फसलों को पानी की आपूर्ति करती हैं।",
+        "uses_hindi":"फसल की वृद्धि सुनिश्चित करने के लिए शुष्क अवधि के दौरान आवश्यक पानी उपलब्ध कराना।"
+      },
+      {
+        "id": 11,
+        "name": "Grain Carts",
+        "imageUrl": "grain_carts.jfif",
+        "subheading":"General purpose",
+        "function":"Grain carts transport grain from the field to storage facilities or trucks.",
+        "uses":"Efficiently moving harvested grain to reduce downtime during the harvesting process",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"अनाज गाड़ियाँ अनाज को खेत से भंडारण सुविधाओं या ट्रकों तक पहुँचाती हैं।",
+        "uses_hindi":"कटाई प्रक्रिया के दौरान समय को कम करने के लिए कटे हुए अनाज को कुशलतापूर्वक ले जाना|"
+      },
+      {
+        "id": 12,
+        "name": "Cultivators",
+        "imageUrl": "cultivator.jfif",
+        "subheading":"General purpose",
+        "function":"Cultivators are used for secondary tillage",
+        "uses":"Stirring and pulverizing the soil, weed control, and preparing the soil for planting",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"द्वितीयक जुताई के लिए कल्टीवेटर का उपयोग किया जाता है।",
+        "uses_hindi":"मिट्टी को हिलाना और भुरभुरा बनाना, खरपतवार नियंत्रण, और रोपण के लिए मिट्टी तैयार करना।"
+      },
+      {
+        "id": 13,
+        "name": "Rotary Hoes",
+        "imageUrl": "Rotary_hoes.jfif",
+        "subheading":"General purpose",
+        "function":"Rotary hoes are used for tillage and weed control.",
+        "uses":"Breaking up the soil crust, aiding in the emergence of seedlings, and controlling weeds.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"रोटरी कुदाल का उपयोग जुताई और खरपतवार नियंत्रण के लिए किया जाता है।",
+        "uses_hindi":"मिट्टी की परत को तोड़ना, अंकुरों के उद्भव में सहायता करना और खरपतवारों को नियंत्रित करना।"
+      },
+      {
+        "id": 14,
+        "name": " Row Crop Cultivators",
+        "imageUrl": "row_crop_cultivators.jfif",
+        "subheading":"General purpose",
+        "function":"These are specialized cultivators for row crops",
+        "uses":"Removing weeds from between rows of crops like corn and soybeans",
+        "subheading_hindi":"सामान्य उद्देश्य",
+        "function_hindi":"ये पंक्तिबद्ध फसलों के लिए विशेष कृषक हैं।",
+        "uses_hindi":"मक्का और सोयाबीन जैसी फसलों की पंक्तियों के बीच से खरपतवार निकालना।"
+      },
+      {
+        "id": 15,
+        "name": "Transplanters",
+        "imageUrl": "Transplanters.jfif",
+        "subheading":"General purpose",
+        "function":"Transplanters are used to plant seedlings",
+        "uses":"Planting young plants (like tomatoes, peppers, and cabbage) into the field.",
+        "subheading_hindi":"सामान्य उद्देश्य",
+       " function_hindi":"पौधे रोपने के लिए ट्रांसप्लांटर्स का उपयोग किया जाता है।",
+        "uses_hindi":"खेत में छोटे पौधे (जैसे टमाटर, मिर्च और पत्तागोभी) रोपना।"
+      }
+  ]
