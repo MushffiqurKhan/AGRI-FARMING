@@ -34,4 +34,59 @@
     color: #00FFFF;
     border-radius: 9px;
     background-color: #008B8B;
+}/* Tablets and below */
+@media (max-width: 992px) {
+  .big-box1 {
+    height: auto;
+    padding: 10px;
+  }
+  .big-box1 h1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .type-contain {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .season {
+    max-width: 150px;
+    margin: 10px;
+    height: auto;
+  }
+
+  .season h1 {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .big-box1 h1 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .type-contain {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .season {
+    max-width: 90%;
+    margin: 5px 0;
+  }
+
+  .season h1 {
+    font-size: 18px;
+  }
 }

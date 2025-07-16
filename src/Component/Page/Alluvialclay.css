@@ -122,85 +122,88 @@
   grid-column-gap: 20px;
   padding: 10px 15px;
 }
-
-@media screen and (max-width:768px) {
+/* Tablet devices and below */
+@media (max-width: 992px) {
   .alluvial-contain {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    padding: 0px;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: auto;
   }
 
   .alluvial_pic {
-    width: 200px;
-    height: 150px;
-    padding: 5px;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+  }
+
+  .alluvial_pic img {
+    height: auto;
+    width: 100%;
   }
 
   .alluvial_info {
-    width: fit-content;
-    padding: 3px;
-    margin-top: -20px;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px;
   }
 
   .alluvial_info h1 {
-    font-size: 25px;
-    line-height: 2px;
+    font-size: 26px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .alluvial_head {
+    font-size: 22px;
+  }
+
+  .alluvial_info h1 {
+    font-size: 22px;
   }
 
   .alluvial_info p {
     font-size: 14px;
-    line-height: 1.3;
-  }
-
-  .item_1 {
-    border: 2px solid black;
-    height: auto;
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
-    align-items: center;
-    grid-row-gap: 0px;
-    grid-column-gap: 5px;
-    padding: 0px;
   }
 
   .card_box {
-    border: 2px solid rgb(47, 145, 80);
-    width: 200px;
-    height: 200px;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
   }
 
   .box2 img {
-    display: none;
+    width: 100%;
+    height: auto;
   }
 
-  .contain_info {
-    width: 100px;
-    padding: 0px;
-  }
-
-  .contain_info p {
-    margin-left: 10px;
-    padding: 0px;
-    width: 150px;
+  .contain_info h1 {
+    font-size: 20px;
+    line-height: normal;
   }
 
   .contain_info_links {
-    border: 2px solid red;
-    margin: 0px 0 0 0;
-    height: 100px;
-    display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    margin: 10px 0 0 0;
   }
 
   .contain_info_links a {
-    border: 2px solid blue;
-    font-size: 10px;
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    padding: 5px 10px;
   }
 }
+

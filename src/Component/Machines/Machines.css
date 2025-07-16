@@ -29,9 +29,7 @@
    border-radius:6px;
 }
 .machine-info{
-    /* border: 2px solid red; */
-   /* padding: 2px; */
-   /* background-color: whitesmoke; */
+   
 line-height: 26px;
 height: 250px;
 
@@ -46,4 +44,42 @@ height: 250px;
 .machine-info span{
   font-size: large;
   font-weight: 600;
+}
+/* Responsive for tablets and smaller screens */
+@media (max-width: 992px) {
+  .machine-contain {
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  .machine-img img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .machine-info {
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 576px) {
+  .machine-heading {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .machine-info h1 {
+    font-size: 22px;
+  }
+
+  .machine-info span {
+    font-size: 16px;
+  }
 }

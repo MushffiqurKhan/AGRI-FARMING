@@ -126,82 +126,91 @@
   grid-column-gap: 20px;
   padding: 10px 15px;
 }
-
-@media screen and (max-width: 768px) {
+/* Tablets and below */
+@media (max-width: 992px) {
   .kharif-contain {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    padding: 0px;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: auto;
   }
 
   .kharif_pic {
-    width: 200px;
-    height: 150px;
-    padding: 5px;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
   }
 
   .kharif_pic img {
-    height: 100%;
+    height: auto;
     width: 100%;
   }
 
   .kharif_info {
-    width: fit-content;
-    padding: 3px;
-    margin-top: -20px;
+    width: 90%;
+    padding: 20px;
   }
 
   .kharif_info h1 {
-    font-size: 25px;
-    line-height: 2px;
+    font-size: 26px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .kharif_head {
+    font-size: 22px;
+  }
+
+  .kharif_info h1 {
+    font-size: 22px;
   }
 
   .kharif_info p {
     font-size: 14px;
-    line-height: 1.3;
   }
 
-  .item_1 {
+  .card_box1 {
+    flex-direction: column;
     height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    align-items: center;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
     padding: 10px;
   }
 
-  .card_box {
+  .box2 img {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
-  .box2 img {
-    display: none;
-  }
-
-  .contain_info {
-    width: 100%;
-    padding: 0px;
+  .contain_info h1 {
+    font-size: 20px;
+    line-height: normal;
   }
 
   .contain_info p {
-    width: 100%;
+    margin-left: 5px;
+    font-size: 14px;
   }
 
   .contain_info_links {
-    margin: 10px 0;
-    display: flex;
     justify-content: center;
+    margin: 10px 0 0 0;
   }
 
   .contain_info_links a {
-    font-size: 10px;
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    padding: 5px 10px;
   }
 }

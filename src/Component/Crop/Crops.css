@@ -268,3 +268,72 @@ lands css */
   color: black;
   border: 2px solid green;
 }
+/* Tablets */
+@media (max-width: 992px) {
+  .tabs {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .tabs button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .Crop-box {
+    gap: 20px;
+  }
+
+  .box1 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .Wheat, .type, .lands, .alluvial, .black, .red {
+    font-size: 22px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .tabs {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 5px;
+  }
+
+  .tabs button {
+    width: 50%; /* two per row */
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .Crop-box {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .box1 {
+    width: 90%;
+    max-width: 250px;
+    height: 160px;
+  }
+
+  .Wheat, .type, .lands, .alluvial, .black, .red {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .btn-1, .btn-2, .btn-3, .btn-4 {
+    font-size: 12px;
+    padding: 3px 6px;
+    margin-top: 4px;
+  }
+
+  #alluvial {
+    margin-left: 0;
+  }
+}

@@ -116,3 +116,88 @@
   grid-column-gap: 20px;
   padding: 10px 15px;
 }
+/* Tablets and below */
+@media (max-width: 992px) {
+  .redyellowsoil-contain {
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .redyellowsoil_pic {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+  }
+
+  .redyellowsoil_pic img {
+    height: auto;
+    width: 100%;
+  }
+
+  .redyellowsoil_info {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .redyellowsoil_info h1 {
+    font-size: 26px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .redyellowsoil_info h1 {
+    font-size: 22px;
+  }
+
+  .redyellowsoil_info p {
+    font-size: 14px;
+  }
+
+  .card_box {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .box2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contain_info h1 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .contain_info p {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .contain_info_links {
+    justify-content: center;
+    margin: 10px 0 0 0;
+  }
+
+  .contain_info_links a {
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+
+  .item_1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    padding: 5px 10px;
+  }
+}
