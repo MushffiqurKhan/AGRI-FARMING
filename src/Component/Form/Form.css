@@ -1,0 +1,70 @@
+/* Overlay */
+.form-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Form container */
+.form-popup-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 360px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.form-popup-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-popup-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit Button */
+.form-popup-button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-popup-button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.form-popup-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-popup-footer a {
+  color: #e2e5ec;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-popup-footer a:hover {
+  text-decoration: underline;
+}

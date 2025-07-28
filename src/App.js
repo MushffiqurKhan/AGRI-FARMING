@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Component/Navbar/Navbar'; // Corrected the spelling to Navbar
+import Navbar from './Component/Navbar/Navbar';
 import Crops from './Component/Crop/Crops';
 import About from './Component/About/About';
 import Mainslider from './Component/Main slider/Mainslider';
@@ -23,22 +22,34 @@ import Field from './Component/Page/Field';
 import AlluvialClay from './Component/Page/Alluvialclay';
 import BlackSoil from './Component/Page/BlackSoil';
 import RedYellowSoil from './Component/Page/Redyellowsoil';
-import { Link } from 'react-router-dom';
+
+// 👇 Import your FormPopup component
+import FormPopup from '../src/Component/Form/Form';
+
 function App() {
+  const [formCompleted, setFormCompleted] = useState(false);
+
+  if (!formCompleted) {
+    return <FormPopup onComplete={() => setFormCompleted(true)} />;
+  }
+
   return (
     <div>
       <Router>
         <Navbar />
         <Routes>
-        <Route path="/" element={  <>  
-          <Mainslider />
-          <About/>
-         <Cards/>
-         <Fresh/>
-         <Vedio/>
-         
-   
-        </>   } />
+          <Route
+            path="/"
+            element={
+              <>
+                <Mainslider />
+                <About />
+                <Cards />
+                <Fresh />
+                <Vedio />
+              </>
+            }
+          />
           <Route path="/Crops" element={<Crops />} />
           <Route path="/About" element={<About />} />
           <Route path="/Fresh" element={<Fresh />} />
@@ -58,8 +69,7 @@ function App() {
           <Route path="/Redyellowsoil" element={<RedYellowSoil />} />
           <Route path="/Aboutin" element={<Aboutin />} />
         </Routes>
-
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
