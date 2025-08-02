@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Component/Navbar/Navbar';
@@ -23,16 +23,8 @@ import AlluvialClay from './Component/Page/Alluvialclay';
 import BlackSoil from './Component/Page/BlackSoil';
 import RedYellowSoil from './Component/Page/Redyellowsoil';
 
-// 👇 Import your FormPopup component
-import FormPopup from '../src/Component/Form/Form';
-
+// ✅ You were missing this function wrapper
 function App() {
-  const [formCompleted, setFormCompleted] = useState(false);
-
-  if (!formCompleted) {
-    return <FormPopup onComplete={() => setFormCompleted(true)} />;
-  }
-
   return (
     <div>
       <Router>
